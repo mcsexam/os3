@@ -1,4 +1,4 @@
-→ #include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
 #include<sys/types.h>
@@ -37,4 +37,5 @@ alarm(5);
 wait(NULL);
 }
 return 0;
+
 }
